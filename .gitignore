@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+**/.venv*/
+**/venv*/
+**/__pycache__/
+*.py[cod]
+
+# Node dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+
+# User uploads and local databases
+backend/uploads/resumes/
+*.sqlite
+*.sqlite3
+*.db
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

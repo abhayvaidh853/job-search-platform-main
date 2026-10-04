@@ -1,0 +1,13 @@
+
+uvicorn[standard]
+pymongo
+python-dotenv
+pydantic[email]
+python-multipart
+PyJWT
+pwdlib[argon2]
+google-auth
+google-genai
+requests
+pypdf
+python-docx
